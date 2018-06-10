@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pixstock.Common.Core\Pixstock.Common.Core.csproj" />
+    <ProjectReference Include="..\Pixstock.Common.Model\Pixstock.Common.Model.csproj" />
+  
+    <ProjectReference Include="..\Pixstock.Service.Infra\Pixstock.Service.Infra.csproj" />
+    <ProjectReference Include="..\Pixstock.Service.Model\Pixstock.Service.Model.csproj" />
+    <ProjectReference Include="..\Pixstock.Service.Extention.Sdk\Pixstock.Service.Extention.Sdk.csproj" />
+    <ProjectReference Include="..\Pixstock.Service.Parent\Hyperion.Pf.Entity\Hyperion.Pf.Entity.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.0.0" />
+  </ItemGroup>
+  
+</Project>

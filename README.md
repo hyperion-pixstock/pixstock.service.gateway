@@ -1,1 +1,1 @@
-"# pixstock.service.gateway" 
+# Pixstock.Service.Gateway
